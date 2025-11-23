@@ -1,0 +1,18 @@
+title: Charles Mowbray's Portfolio
+email: charleswdmowbray@gmail.com
+description: >- 
+  Here is a collection of my projects and work.
+baseurl: "" 
+url: "https://charles-mowbray.github.io"
+github_username: charles-mowbray
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+# Build settings
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
